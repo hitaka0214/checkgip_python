@@ -12,9 +12,3 @@ uv sync
 ```bash
 uv run python main.py
 ```
- 
- - **スクリプトとして実行**（任意）:
- 
- ```bash
- uv run checkgip
- ```
