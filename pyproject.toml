@@ -1,0 +1,12 @@
+ [project]
+ name = "checkgip"
+ version = "0.1.0"
+ description = "Fetch global IP from ugtop.com and optionally notify ChatWork."
+ requires-python = ">=3.10"
+ dependencies = [
+   "lxml>=5.0.0",
+   "requests>=2.31.0",
+ ]
+ 
+ [project.scripts]
+ checkgip = "main:main"
